@@ -3,10 +3,10 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 # environment variables
-username = 'baruch01777@gmail.com'
-password = '@rtuR01990B@Rk0r3'
+username = '<email>'
+password = '<password>'
 
-def send_mail(text='Email Body', subject='Hello World', from_email='Baruch <baruch01777@gmail.com>', to_emails=None, html=None):
+def send_mail(text='Email Body', subject='Hello World', from_email='Baruch <@gmail.com>', to_emails=None, html=None):
     assert isinstance(to_emails, list)
     msg = MIMEMultipart('alternative')
     msg['From'] = from_email
