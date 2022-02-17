@@ -6,8 +6,8 @@ import requests
 import pprint
 import pandas as pd
 
-api_key = "dd884c862fa83a21eb42856b3db11597"
-api_key_v4 = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkZDg4NGM4NjJmYTgzYTIxZWI0Mjg1NmIzZGIxMTU5NyIsInN1YiI6IjYyMGRkNjQ3Yjg0Zjk0MDA0MTkyMjk4OSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.WfxIHGkNaJsTdS9-a04x0VW-HdTMSu8y20DDRUlv6dw"
+api_key = "<The Movie Database v3>"
+api_key_v4 = "The Movie Database v4"
 
 #http request methods
 """
@@ -27,7 +27,7 @@ DELETE
 Endpoint
 /movie/{movie_id}
 https://api.themoviedb.org/3/movie/550?
-api_key=dd884c862fa83a21eb42856b3db11597
+api_key=<The Movie Database v3>
 """
 movie_id = 500
 api_version = 3
